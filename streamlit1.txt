@@ -1,0 +1,4 @@
+!pip install streamlit -q
+!npm install -g localtunnel
+!streamlit run app.py &>/dev/null &
+!curl ipv4.icanhazip.com && lt --port 8501 --subdomain machangame
